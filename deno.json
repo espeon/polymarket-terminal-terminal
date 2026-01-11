@@ -1,0 +1,25 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-net --allow-env market.ts",
+    "start": "deno run --allow-net --allow-env market.ts",
+    "check": "deno check market.ts",
+    "fmt": "deno fmt",
+    "fmt:check": "deno fmt --check",
+    "lint": "deno lint",
+    "test": "deno test --allow-net --allow-env",
+    "cache": "deno cache market.ts"
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 80,
+    "indentWidth": 2,
+    "semiColons": true,
+    "singleQuote": false,
+    "proseWrap": "preserve"
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  }
+}

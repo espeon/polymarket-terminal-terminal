@@ -8,6 +8,7 @@
     "lint": "deno lint",
     "test": "deno test --allow-net --allow-env",
     "cache": "deno cache market.ts"
+    "compile": "deno compile --allow-net --allow-env --output market market.ts"
   },
   "fmt": {
     "useTabs": false,

@@ -1,5 +1,5 @@
 # polymarket-terminal-terminal
-stupid ass polymarket viewer. to laugh at people who gamble and such
+stupid ass polymarket viewer. probably sucks too
 
 > [!WARNING]  
 > **I AM NOT ENDORSING GAMBLING**
